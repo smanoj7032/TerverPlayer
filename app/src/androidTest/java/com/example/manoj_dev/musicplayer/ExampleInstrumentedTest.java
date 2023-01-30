@@ -1,4 +1,4 @@
-package com.example.soc_macmini_15.musicplayer;
+package com.example.manoj_dev.musicplayer;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

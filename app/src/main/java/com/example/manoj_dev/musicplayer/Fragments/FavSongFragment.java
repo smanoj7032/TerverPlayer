@@ -1,13 +1,9 @@
-package com.example.soc_macmini_15.musicplayer.Fragments;
+package com.example.manoj_dev.musicplayer.Fragments;
 
 
-import android.content.ContentResolver;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.database.Cursor;
-import android.net.Uri;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -20,10 +16,10 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.soc_macmini_15.musicplayer.Adapter.SongAdapter;
-import com.example.soc_macmini_15.musicplayer.DB.FavoritesOperations;
-import com.example.soc_macmini_15.musicplayer.Model.SongsList;
-import com.example.soc_macmini_15.musicplayer.R;
+import com.example.manoj_dev.musicplayer.Adapter.SongAdapter;
+import com.example.manoj_dev.musicplayer.DB.FavoritesOperations;
+import com.example.manoj_dev.musicplayer.Model.SongsList;
+import com.example.manoj_dev.musicplayer.R;
 
 import java.util.ArrayList;
 

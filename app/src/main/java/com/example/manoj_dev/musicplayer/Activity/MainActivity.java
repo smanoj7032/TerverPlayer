@@ -1,4 +1,4 @@
-package com.example.soc_macmini_15.musicplayer.Activity;
+package com.example.manoj_dev.musicplayer.Activity;
 
 import android.Manifest;
 import android.app.SearchManager;
@@ -11,7 +11,6 @@ import android.media.audiofx.AudioEffect;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
@@ -33,13 +32,13 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.soc_macmini_15.musicplayer.Adapter.ViewPagerAdapter;
-import com.example.soc_macmini_15.musicplayer.DB.FavoritesOperations;
-import com.example.soc_macmini_15.musicplayer.Fragments.AllSongFragment;
-import com.example.soc_macmini_15.musicplayer.Fragments.CurrentSongFragment;
-import com.example.soc_macmini_15.musicplayer.Fragments.FavSongFragment;
-import com.example.soc_macmini_15.musicplayer.Model.SongsList;
-import com.example.soc_macmini_15.musicplayer.R;
+import com.example.manoj_dev.musicplayer.Adapter.ViewPagerAdapter;
+import com.example.manoj_dev.musicplayer.DB.FavoritesOperations;
+import com.example.manoj_dev.musicplayer.Fragments.AllSongFragment;
+import com.example.manoj_dev.musicplayer.Fragments.CurrentSongFragment;
+import com.example.manoj_dev.musicplayer.Fragments.FavSongFragment;
+import com.example.manoj_dev.musicplayer.Model.SongsList;
+import com.example.manoj_dev.musicplayer.R;
 
 import java.util.ArrayList;
 

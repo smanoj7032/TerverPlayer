@@ -1,7 +1,6 @@
-package com.example.soc_macmini_15.musicplayer.Adapter;
+package com.example.manoj_dev.musicplayer.Adapter;
 
 import android.content.Context;
-import android.graphics.Movie;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -11,11 +10,10 @@ import android.widget.ArrayAdapter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
-import com.example.soc_macmini_15.musicplayer.Model.SongsList;
-import com.example.soc_macmini_15.musicplayer.R;
+import com.example.manoj_dev.musicplayer.Model.SongsList;
+import com.example.manoj_dev.musicplayer.R;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class SongAdapter extends ArrayAdapter<SongsList> implements Filterable{
 

@@ -1,4 +1,4 @@
-package com.example.soc_macmini_15.musicplayer.DB;
+package com.example.manoj_dev.musicplayer.DB;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.example.soc_macmini_15.musicplayer.Model.SongsList;
+import com.example.manoj_dev.musicplayer.Model.SongsList;
 
 import java.util.ArrayList;
 
